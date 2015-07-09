@@ -13,4 +13,6 @@ feature 'Deleting projects' do
 		visit '/'
 		expect(page).to have_no_content("TextMate 2")
 	end
+
+	
 end
