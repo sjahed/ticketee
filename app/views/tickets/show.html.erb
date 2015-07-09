@@ -3,3 +3,4 @@
 	<%= simple_format(@ticket.description) %>
 </div>
 <%= link_to "Edit Ticket", edit_project_ticket_path(@project,@ticket) %>
+<%= link_to "Delete Ticket", project_ticket_path(@project,@ticket), confirm: "Are you sure?", method: :delete %>
